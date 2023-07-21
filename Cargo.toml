@@ -1,0 +1,14 @@
+[package]
+name = "chess-gui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = { version = "0.9.0", features = ["smol", "image", "svg"] }
+chess = {path = "/home/dominic/projekte/crappy/chess"}
+iced_style = "0.8.0"
+lazy_static = "1.4.0"
+iced_aw = { version = "0.5.2", features = ["badge", "modal", "color_picker"] }
+rand = "0.8.5"
